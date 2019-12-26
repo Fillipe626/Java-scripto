@@ -55,8 +55,9 @@ timerId =	setTimeout("contagem_tempo("+segundos+")", 1000); //executa a função
 }
 
 function game_over(){
+	remove_eventos_baloes();
 	alert('Fim de jogo, não estourou os baloes a tempo');
-};
+}situacao_jogo:
 
 function cria_baloes(qtde_baloes) {
 
